@@ -15,10 +15,10 @@ Review my existing Proxmox installation before creating any virtual machines or 
 | Hardware | Intel NUC 10 |
 | CPU | Intel Core i7 10710U |
 | Logical CPUs | 12 |
-| RAM available to Proxmox | 15.34 GiB |
+| RAM available to Proxmox | 16.47 GB |
 | Proxmox Manager | 9.1.1 |
 | Boot mode | EFI |
-| Main drive | Samsung SSD 980 500GB NVMe |
+| Main drive | Samsung SSD 980 500 GB NVMe |
 | SSD health | S.M.A.R.T. passed |
 | SSD wear | 3% |
 
@@ -27,7 +27,7 @@ Review my existing Proxmox installation before creating any virtual machines or 
 | Storage | Configuration | Purpose |
 |---|---|---|
 | Physical SSD | 500.11 GB reported | Hosts Proxmox and its storage volumes |
-| Root filesystem | 93.93 GiB total | Proxmox system storage |
+| Root filesystem | 100.86 GB total | Proxmox system storage |
 | `local` | Directory at `/var/lib/vz` | ISO images, templates, backups, imports |
 | `local-lvm` | LVM Thin pool (`data`, volume group `pve`) | VM and container disks |
 | LVM Thin capacity | 361.98 GB | Available thin pool capacity |
@@ -67,9 +67,9 @@ These measurements are a snapshot, not a guarantee of future performance.
 | Check | Result |
 |---|---|
 | CPU usage | Approximately 0.08% |
-| RAM usage | 1.69 GiB of 15.34 GiB |
-| Root storage usage | 3.97 GiB of 93.93 GiB |
-| Swap usage | 0 of 8 GiB |
+| RAM usage | 1.81 GB of 16.47 GB |
+| Root storage usage | 4.26 GB of 100.86 GB |
+| Swap usage | 0 of 8.59 GB |
 | Available package updates | 82 listed |
 
 I reviewed the update repositories:
