@@ -43,3 +43,41 @@ This is the equipment I'm currently using or have available for my homelab. My g
 | Main Desktop PC | Personal Windows workstation | Used to remotely access, configure, and manage my homelab. |
 
 
+
+# Network Topology
+
+This section documents how my home network and homelab equipment are connected. I'll update it as I add devices, configure VLANs, and make changes to the network.
+
+### Physical Network Layout
+
+```text
+             Internet
+                |
+             Fiber ONT
+                |
+          TP-Link ER605
+           Main Router
+                |
+       TP-Link TL-SG108E
+         Managed Switch
+                |
+       +--------+---------+
+       |        |         |
+   Google     Intel      Other
+   Nest       NUC 10     Wired Devices
+   WiFi       Proxmox
+       |
+   Wireless Devices
+```
+### Network Information
+
+- **Router:** TP-Link ER605
+- **Managed Switch:** TP-Link TL-SG108E
+- **Wireless Network:** Google Nest WiFi
+- **Virtualization Server:** Intel NUC 10 running Proxmox VE
+- **LAN Subnet:** 192.168.40.0/24
+- **Default Gateway:** 192.168.40.1
+- **Proxmox Management:** Static/reserved LAN address (exact IP documented privately)
+- **VLANs:** Not yet configured or verified
+
+This represents my current documented network connections. I'll expand the diagram as I verify additional devices and make changes.
