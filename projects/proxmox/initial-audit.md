@@ -2,7 +2,7 @@
 
 **Date:** October 28, 2026  
 **Node:** ProxmoxNUC  
-**Related GitHub Issue:** [#1 Proxmox Audit](../../issues/1)
+**Related GitHub Issue:** [#1 Proxmox Audit](https://github.com/Jwalker9189/HomeLab/issues/1)
 
 ## Goal
 
@@ -101,7 +101,7 @@ No updates were installed during this audit.
 
 ### Separate Follow Up: Router System Time
 
-The ER605 Status page displayed the wrong date. This is tracked separately in [Issue #2](../../issues/2). It has not been resolved yet.
+The ER605 Status page displayed the wrong date. This is tracked separately in [Issue #2](https://github.com/Jwalker9189/HomeLab/issues/2). It has not been resolved yet.
 
 ## What I Learned
 
