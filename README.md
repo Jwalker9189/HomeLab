@@ -63,8 +63,8 @@ This section documents how my home network and homelab equipment are connected. 
                 |
        +--------+---------+
        |        |         |
-   Google     Intel      Other
-   Nest       NUC 10     Wired Devices
+   Google     Intel      Main PC
+   Nest       NUC 10     
    WiFi       Proxmox
        |
    Wireless Devices
