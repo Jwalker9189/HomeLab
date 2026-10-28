@@ -75,9 +75,11 @@ This section documents how my home network and homelab equipment are connected. 
 - **Managed Switch:** TP-Link TL-SG108E
 - **Wireless Network:** Google Nest WiFi
 - **Virtualization Server:** Intel NUC 10 running Proxmox VE
-- **LAN Subnet:** 192.168.40.0/24
-- **Default Gateway:** 192.168.40.1
-- **Proxmox Management:** Static/reserved LAN address (exact IP documented privately)
-- **VLANs:** Not yet configured or verified
+- **LAN Subnet:** 192.168.0.0/24
+- **Default Gateway:** 192.168.0.1
+- **Proxmox Management IP:** 192.168.0.103
+- **DHCP Server:** Enabled on ER605
+- **LAN VLAN:** 1 (default)
+- **Additional VLANs:** Not yet configured or verified
 
-This represents my current documented network connections. I'll expand the diagram as I verify additional devices and make changes.
+These settings were verified on October 28, 2026.
