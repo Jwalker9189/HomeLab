@@ -26,3 +26,20 @@ I'm not starting with a perfect setup or pretending to know everything. The whol
 - Develop skills that will help me move into an IT infrastructure, networking, or cybersecurity role.
 
 This repository is basically my way of keeping track of everything I'm learning and building along the way.
+
+
+
+# My Homelab Hardware
+
+This is the equipment I'm currently using or have available for my homelab. My goal is to understand how each device works, how they communicate with each other, and how to manage the entire environment.
+
+| Equipment | Specifications | Purpose |
+|---|---|---|
+| TP-Link ER605 | Multi-WAN Gigabit VPN Router | Main router for my home network. Handles routing between my local network and the internet. |
+| TP-Link TL-SG108E | 8-Port Gigabit Managed Switch | Connects my wired devices and allows me to practice network management, VLANs, and network segmentation. |
+| Google Nest WiFi | Wireless networking system | Provides wireless connectivity throughout my home. Connected to my managed switch. |
+| Intel NUC 10 | Intel Core i7-10710U, 16GB RAM, 500GB NVMe SSD | Main virtualization server running Proxmox VE. Used for virtual machines and future self-hosted services. |
+| Minisforum Mini PC | Specifications to be confirmed | Spare computer for testing operating systems and future projects. |
+| Main Desktop PC | Personal Windows workstation | Used to remotely access, configure, and manage my homelab. |
+
+
