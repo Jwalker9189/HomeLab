@@ -17,6 +17,7 @@ As I continue building my homelab, my focus is shifting toward Microsoft enterpr
 | Equipment | Purpose |
 |---|---|
 | Intel NUC 10 (i7-10710U, 16 GB RAM, 500 GB NVMe) | Proxmox virtualization host |
+| TP-Link ER605 | Main router and network gateway |
 | TP-Link TL-SG108E | Managed network switch |
 | Minisforum Mini PC | Spare computer for future Windows administration labs |
 
