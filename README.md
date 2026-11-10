@@ -31,3 +31,13 @@ As I continue building my homelab, my focus is shifting toward Microsoft enterpr
 - **Windows Networking:** Configure and troubleshoot DNS, DHCP, and domain connectivity.
 - **Self-Hosting:** Eventually set up services like Plex and network-wide ad blocking.
 - **IT Troubleshooting:** Build realistic scenarios to practice diagnosing and resolving common enterprise IT issues.
+
+## Completed Projects
+
+### Project 01 — Cloudflare Secure Remote Access
+
+I built secure browser-based remote access to my Proxmox Homelab and Windows Server 2022 using a Debian LXC, Cloudflare Tunnel, Zero Trust Access, MFA, DNS, and trusted HTTPS certificates. I tested both Proxmox administration and direct Windows RDP from a laptop without installing additional client software, and troubleshot a certificate-related 502 error using Linux service logs.
+
+[Read the Project 01 documentation](01-Remote-Access/README.md)
+
+[View my Skills Checklist](Skills-Checklist.md)
