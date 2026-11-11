@@ -51,28 +51,4 @@ See [Project 01 documentation](01-Remote-Access/README.md).
 | Windows RDP configuration | Resume Ready | Verified NLA, TCP 3389 listener, reachability and actual browser-based sign-in |
 | Remote browser access | Resume Ready | Proxmox and Windows Server both accessed from a work laptop without additional client installation |
 
-## Current lab baseline (verified November 10, 2026)
 
-- Proxmox host (Intel NUC) is accessible at `192.168.0.103:8006`.
-- Windows Server 2022 Standard Evaluation is running as VM 101; Ubuntu Server VM is stopped, not deleted.
-- Windows Server is in WORKGROUP and DHCP-enabled, with IPv4 `192.168.0.105/24`, gateway/DHCP/DNS `192.168.0.1`.
-- Remote Desktop is enabled with Network Level Authentication; its TCP 3389 listener and local connectivity from LXC 102 were verified.
-- LXC 102 (`cloud-tunnel`) is Debian 12 and has been seen at `192.168.0.104/24`. The container and `cloudflared` are set to start at boot.
-- Cloudflare Access, MFA, TLS certificate validation, and both Proxmox and Windows RDP browser access were verified, including from the work laptop.
-- Windows Server DHCP reservation, RDP firewall source scoping and full host-reboot recovery tests are **pending**.
-- No AD DS, Windows DNS Server, Windows DHCP Server or Group Policy configuration is claimed.
-
-## Documentation standard for each lab
-1. **Goal:** Which job skill is being demonstrated?
-2. **Starting state:** What was verified before changes?
-3. **Why:** Explain the purpose of each major step.
-4. **Commands/configuration:** Record actual work only.
-5. **Validation:** Include output, screenshots or tests.
-6. **Issues and resolution:** Describe mistakes and fixes honestly.
-7. **Resume evidence:** Draft a bullet only when validated.
-
-## Next milestone
-Project 02 — Windows Server Infrastructure: audit current network settings, plan an isolated lab, then build Active Directory, DNS, DHCP and Group Policy step by step. Do not enable a DHCP Server role on the home LAN.
-
-## Portfolio note
-This checklist tracks homelab learning, not employment tenure. Do not imply years of professional experience based on lab work.
